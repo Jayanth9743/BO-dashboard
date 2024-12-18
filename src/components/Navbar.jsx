@@ -12,12 +12,10 @@ const Navbar = () => {
       </div>
 
       <div className="flex items-center justify-between w-full h-12">
-
         <div className="flex items-center justify-start w-full gap-4 text-lg">
           <IoIosArrowBack className="ml-2 text-xl"/>
           <p className="font-semibold">Collection Report</p>
         </div>
-
       </div>
 
     </div>
