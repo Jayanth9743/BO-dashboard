@@ -1,13 +1,14 @@
-import Navbar from "../components/Navbar"
+import Chart from "../components/Chart"
 import ProfitDateShifter from "../components/ProfitDateShifter"
+
 
 
 
 const BoDashboard = () => {
   return (
     <div>
-      <Navbar/>
       <ProfitDateShifter/>
+      <Chart/>
     </div>
   )
 }
