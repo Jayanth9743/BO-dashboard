@@ -27,17 +27,26 @@ const Chart = () => {
           { 
             data: days, 
             label: "Days", 
-            scaleType: "band", // Add this line to avoid the error
+            scaleType: "band",// Add this line to avoid the error
+            
           },
         ]}
         series={[
           {
             data: profits,
             label: "Total Profit",
+            color: "#426CB4",
+            barSize:20,
           },
         ]}
-        width={800}
+        width={500}
         height={400}
+        borderRadius={10}
+        sx={{
+          ".MuiBarChart-bar rect": {
+            width: "15px", // Set bar width explicitly
+          },
+        }}
       />
     </div>
   );
