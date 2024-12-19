@@ -6,6 +6,9 @@ import ProfitTable from "../components/ProfitTable"
 
 
 const BoDashboard = () => {
+
+  // api logic comes here may be a custom fetch hook or just a simple fetch logic
+
   return (
     <div>
       <ProfitDateShifter/>

@@ -6,9 +6,6 @@ export default {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        cabin: ['Cabin', 'sans-serif'],
-      },
       screens: {
         'xxs': '375px',
         'xs':'380px'

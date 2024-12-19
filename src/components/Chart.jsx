@@ -19,33 +19,38 @@ const Charts = () => {
 
   const days = data.weekly[0].days.map((day) => day.day);
   const profits = data.weekly[0].days.map((day) => day.totalProfit);
-
+//harcoded data for the chart
   return (
     <div className="flex justify-center items-center mt-12 w-[100%]">
-      <BarChart
-      
-        width={450}
-        height={300}
-        xAxis={[
-          {
-            data: days,
-            label: "Days",
-            scaleType: "band",
-            categoryGapRatio: 0.5,
+      <div className='flex justify-center items-center  w-[100%]'>
+        <div className='hidden w-48 lg:block'></div>
+        <div className='flex justify-center items-center w-full lg:w-[85%]'>
+            <BarChart
             
-          },
-        ]}
-        series={[
-          {
-            data: profits,
-            label: "Total Profit",
-            color: "#426CB4",
-           
-             // Adjust bar size here
-          },
-        ]}
-        borderRadius={5}
-      />
+            width={450}
+            height={300}
+            xAxis={[
+              {
+                data: days,
+                label: "Days",
+                scaleType: "band",
+                categoryGapRatio: 0.5,
+                
+              },
+            ]}
+            series={[
+              {
+                data: profits,
+                label: "Total Profit",
+                color: "#426CB4",
+              
+                // Adjust bar size here
+              },
+            ]}
+            borderRadius={5}
+          />
+        </div>
+      </div>
     </div>
   );
 };

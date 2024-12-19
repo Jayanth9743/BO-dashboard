@@ -11,6 +11,8 @@ const ProfitDateShifter = () => {
     setActiveButton(name);
   }
 
+  //the logic part will change when the api comes here
+
   return (
    <div className="flex items-center justify-center w-full mt-28 lg:justify-start">
      <div className="flex items-center lg:ml-[14rem] justify-around text-[#777777] xxs:w-[22rem] lg:gap-8 lg:w-[35rem] rounded-3xl xs:w-[24rem] bg-[#D3E3FF]">

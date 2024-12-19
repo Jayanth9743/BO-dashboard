@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
+import BoProfitRecord from "./pages/BoProfitRecord";
 import BoDashboard from "./pages/BoDashboard";
 
 function App() {
@@ -30,10 +31,12 @@ function App() {
   }, [isSidebarOpen]);
 
   return (
+    //** while running this code please comment one component and run thw other component **
     <div>
       <Navbar toggleSidebar={toggleSidebar} />
       <Sidebar isOpen={isSidebarOpen} sidebarRef={sidebarRef} />
-      <BoDashboard />
+      {/* <BoDashboard /> */}
+      <BoProfitRecord/>
     </div>
   );
 }

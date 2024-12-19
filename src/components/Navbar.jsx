@@ -12,7 +12,7 @@ const Navbar = ({toggleSidebar}) => {
         <p>DashBoard</p>
       </div>
 
-      <div className="flex items-center justify-between w-full h-12 bg-white">
+      <div className="flex items-center justify-between w-full h-12 bg-white lg:shadow-md">
         <div className="flex items-center justify-start w-full lg:w-[80%] gap-4 text-lg">
           <IoIosArrowBack className="ml-2 text-xl lg:ml-56 lg:text-2xl "/>
           <p className="font-semibold lg:text-2xl">Profit</p>

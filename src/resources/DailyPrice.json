@@ -1,0 +1,182 @@
+{
+    "days": [
+      {
+        "id": 1,
+        "day": "Thu",
+        "date": "01",
+        "broiler": { "boardRate": 5000, "billingRate": 4900 },
+        "layer": { "boardRate": 2000, "billingRate": 1950 },
+        "parents": { "boardRate": 7000, "billingRate": 6900 }
+      },
+      {
+        "id": 2,
+        "day": "Fri",
+        "date": "02",
+        "broiler": { "boardRate": 5200, "billingRate": 5100 },
+        "layer": { "boardRate": 2100, "billingRate": 2000 },
+        "parents": { "boardRate": 7300, "billingRate": 7200 }
+      },
+      {
+        "id": 3,
+        "day": "Sat",
+        "date": "03",
+        "broiler": { "boardRate": 5100, "billingRate": 5000 },
+        "layer": { "boardRate": 2050, "billingRate": 2000 },
+        "parents": { "boardRate": 7200, "billingRate": 7100 }
+      },
+      {
+        "id": 4,
+        "day": "Sun",
+        "date": "04",
+        "broiler": { "boardRate": 5300, "billingRate": 5200 },
+        "layer": { "boardRate": 2150, "billingRate": 2100 },
+        "parents": { "boardRate": 7400, "billingRate": 7300 }
+      },
+      {
+        "id": 5,
+        "day": "Mon",
+        "date": "05",
+        "broiler": { "boardRate": 5400, "billingRate": 5300 },
+        "layer": { "boardRate": 2200, "billingRate": 2150 },
+        "parents": { "boardRate": 7500, "billingRate": 7400 }
+      },
+      {
+        "id": 6,
+        "day": "Tue",
+        "date": "06",
+        "broiler": { "boardRate": 5500, "billingRate": 5400 },
+        "layer": { "boardRate": 2250, "billingRate": 2200 },
+        "parents": { "boardRate": 7600, "billingRate": 7500 }
+      },
+      {
+        "id": 7,
+        "day": "Wed",
+        "date": "07",
+        "broiler": { "boardRate": 5600, "billingRate": 5500 },
+        "layer": { "boardRate": 2300, "billingRate": 2250 },
+        "parents": { "boardRate": 7700, "billingRate": 7600 }
+      },
+      {
+        "id": 8,
+        "day": "Thu",
+        "date": "08",
+        "broiler": { "boardRate": 5700, "billingRate": 5600 },
+        "layer": { "boardRate": 2350, "billingRate": 2300 },
+        "parents": { "boardRate": 7800, "billingRate": 7700 }
+      },
+      {
+        "id": 9,
+        "day": "Fri",
+        "date": "09",
+        "broiler": { "boardRate": 5800, "billingRate": 5700 },
+        "layer": { "boardRate": 2400, "billingRate": 2350 },
+        "parents": { "boardRate": 7900, "billingRate": 7800 }
+      },
+      {
+        "id": 10,
+        "day": "Sat",
+        "date": "10",
+        "broiler": { "boardRate": 5900, "billingRate": 5800 },
+        "layer": { "boardRate": 2450, "billingRate": 2400 },
+        "parents": { "boardRate": 8000, "billingRate": 7900 }
+      },
+      {
+        "id": 11,
+        "day": "Sun",
+        "date": "11",
+        "broiler": { "boardRate": 6000, "billingRate": 5900 },
+        "layer": { "boardRate": 2500, "billingRate": 2450 },
+        "parents": { "boardRate": 8100, "billingRate": 8000 }
+      },
+      {
+        "id": 12,
+        "day": "Mon",
+        "date": "12",
+        "broiler": { "boardRate": 6100, "billingRate": 6000 },
+        "layer": { "boardRate": 2550, "billingRate": 2500 },
+        "parents": { "boardRate": 8200, "billingRate": 8100 }
+      },
+      {
+        "id": 13,
+        "day": "Tue",
+        "date": "13",
+        "broiler": { "boardRate": 6200, "billingRate": 6100 },
+        "layer": { "boardRate": 2600, "billingRate": 2550 },
+        "parents": { "boardRate": 8300, "billingRate": 8200 }
+      },
+      {
+        "id": 14,
+        "day": "Wed",
+        "date": "14",
+        "broiler": { "boardRate": 6300, "billingRate": 6200 },
+        "layer": { "boardRate": 2650, "billingRate": 2600 },
+        "parents": { "boardRate": 8400, "billingRate": 8300 }
+      },
+      {
+        "id": 15,
+        "day": "Thu",
+        "date": "15",
+        "broiler": { "boardRate": 6400, "billingRate": 6300 },
+        "layer": { "boardRate": 2700, "billingRate": 2650 },
+        "parents": { "boardRate": 8500, "billingRate": 8400 }
+      },
+      {
+        "id": 16,
+        "day": "Fri",
+        "date": "16",
+        "broiler": { "boardRate": 6500, "billingRate": 6400 },
+        "layer": { "boardRate": 2750, "billingRate": 2700 },
+        "parents": { "boardRate": 8600, "billingRate": 8500 }
+      },
+      {
+        "id": 17,
+        "day": "Sat",
+        "date": "17",
+        "broiler": { "boardRate": 6600, "billingRate": 6500 },
+        "layer": { "boardRate": 2800, "billingRate": 2750 },
+        "parents": { "boardRate": 8700, "billingRate": 8600 }
+      },
+      {
+        "id": 18,
+        "day": "Sun",
+        "date": "18",
+        "broiler": { "boardRate": 6700, "billingRate": 6600 },
+        "layer": { "boardRate": 2850, "billingRate": 2800 },
+        "parents": { "boardRate": 8800, "billingRate": 8700 }
+      },
+      {
+        "id": 19,
+        "day": "Mon",
+        "date": "19",
+        "broiler": { "boardRate": 6800, "billingRate": 6700 },
+        "layer": { "boardRate": 2900, "billingRate": 2850 },
+        "parents": { "boardRate": 8900, "billingRate": 8800 }
+      },
+      {
+        "id": 20,
+        "day": "Tue",
+        "date": "20",
+        "broiler": { "boardRate": 6900, "billingRate": 6800 },
+        "layer": { "boardRate": 2950, "billingRate": 2900 },
+        "parents": { "boardRate": 9000, "billingRate": 8900 }
+      },
+      {
+        "id": 21,
+        "day": "Wed",
+        "date": "21",
+        "broiler": { "boardRate": 7000, "billingRate": 6900 },
+        "layer": { "boardRate": 3000, "billingRate": 2950 },
+        "parents": { "boardRate": 9100, "billingRate": 9000 }
+      },
+      {
+        "id": 22,
+        "day": "Thu",
+        "date": "22",
+        "broiler": { "boardRate": 7100, "billingRate": 7000 },
+        "layer": { "boardRate": 3050, "billingRate":4500},
+        "parents": { "boardRate": 9000, "billingRate": 8900 }
+      }
+    ]
+}
+
+  
