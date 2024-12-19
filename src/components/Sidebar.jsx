@@ -16,9 +16,9 @@ const Sidebar = ({ isOpen, sidebarRef }) => {
   return (
     <div
       ref={sidebarRef}
-      className={`fixed top-0 z-40 flex flex-col items-center justify-between w-1/2 h-[100%] bg-black transform ${
+      className={`fixed top-0 z-40 flex flex-col items-center justify-between w-48 h-[100%] bg-black transform ${
         isOpen ? "translate-x-0" : "-translate-x-full"
-      } transition-transform duration-300`}
+      } transition-transform duration-300 lg:translate-x-0`}
     >
       <div className="flex justify-center items-center mt-4 text-3xl h-8 font-bold w-full text-[#2E5392]">
         <p className="mr-2">Logoipsum</p>

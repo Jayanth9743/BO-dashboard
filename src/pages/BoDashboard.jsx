@@ -1,5 +1,6 @@
 import Chart from "../components/Chart"
 import ProfitDateShifter from "../components/ProfitDateShifter"
+import ProfitTable from "../components/ProfitTable"
 
 
 
@@ -9,6 +10,7 @@ const BoDashboard = () => {
     <div>
       <ProfitDateShifter/>
       <Chart/>
+      <ProfitTable/>
     </div>
   )
 }
