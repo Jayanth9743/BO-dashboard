@@ -31,7 +31,7 @@ function App() {
   }, [isSidebarOpen]);
 
   return (
-    //** while running this code please comment one component and run thw other component **
+    //** while running this code please comment one component and run thw other component dont comment navbar and sidebar component **
     <div>
       <Navbar toggleSidebar={toggleSidebar} />
       <Sidebar isOpen={isSidebarOpen} sidebarRef={sidebarRef} />
