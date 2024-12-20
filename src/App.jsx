@@ -35,8 +35,8 @@ function App() {
     <div>
       <Navbar toggleSidebar={toggleSidebar} />
       <Sidebar isOpen={isSidebarOpen} sidebarRef={sidebarRef} />
-      {/* <BoDashboard /> */}
-      <BoProfitRecord/>
+      <BoDashboard />
+      {/* <BoProfitRecord/> */}
     </div>
   );
 }

@@ -1,37 +1,50 @@
 import {
-    Table,
-    TableBody,
-    TableCell,
-    TableContainer,
-    TableFooter,
-    TableHead,
-    TableRow,
-    Paper,
-  } from '@mui/material';
+  Table,
+  TableBody,
+  TableCell,
+  TableContainer,
+  TableFooter,
+  TableHead,
+  TableRow,
+  Paper,
+} from '@mui/material';
 
-//this ia a hardcoded data when the api come this will be dynamic
-  const data = [
-    { date: '26/11/24', broiler: 5000, layer: 2000, parents: 7000, chicken: 7000, profit: 7000 },
-    { date: '26/11/24', broiler: 5000, layer: 2000, parents: 7000, chicken: 7000, profit: 7000 },
-    { date: '26/11/24', broiler: 5000, layer: 2000, parents: 7000, chicken: 7000, profit: 7000 },
-  ];
+// This is hardcoded data; it will be dynamic when the API is integrated.
+const data = [
+  { date: '26/11/24', broiler: 5000, layer: 2000, parents: 7000, chicken: 7000, profit: 7000 },
+  { date: '26/11/24', broiler: 5000, layer: 2000, parents: 7000, chicken: 7000, profit: 7000 },
+  { date: '26/11/24', broiler: 5000, layer: 2000, parents: 7000, chicken: 7000, profit: 7000 },
+  { date: '26/11/24', broiler: 5000, layer: 2000, parents: 7000, chicken: 7000, profit: 7000 },
+  { date: '26/11/24', broiler: 5000, layer: 2000, parents: 7000, chicken: 7000, profit: 7000 },
+  { date: '26/11/24', broiler: 5000, layer: 2000, parents: 7000, chicken: 7000, profit: 7000 },
+  { date: '26/11/24', broiler: 5000, layer: 2000, parents: 7000, chicken: 7000, profit: 7000 },
+  { date: '26/11/24', broiler: 5000, layer: 2000, parents: 7000, chicken: 7000, profit: 7000 },
+  { date: '26/11/24', broiler: 5000, layer: 2000, parents: 7000, chicken: 7000, profit: 7000 },
+  { date: '26/11/24', broiler: 5000, layer: 2000, parents: 7000, chicken: 7000, profit: 7000 },
+];
 
 const ProfitTable = () => {
   return (
-    <div className='flex items-center justify-center w-full overflow-x-hidden mt-14 hide-scrollbar'>
+    <div className='flex items-center justify-center w-full mt-10 mb-6 overflow-x-hidden .hide-scrollbar-y hide-scrollbar'>
       <div className='hidden w-48 lg:block'></div>
       <div className='flex items-center justify-center w-full lg:w-[85%] overflow-x-auto hide-scrollbar'>
-          <TableContainer component={Paper} sx={{bgcolor:"#DDDDDD", flexShrink:0,borderRadius:"10px"}}>
-          <Table>
+          <TableContainer component={Paper} className='w-full ml-6 hide-scrollbar-y lg:ml-0' sx={{bgcolor:"#F0F0F0",
+             flexShrink:0,
+             borderRadius:"10px",
+             maxHeight: 400, // Fixed height for the table
+             overflowY: 'auto',
+             }}>
+
+          <Table stickyHeader>
             {/* Table Header */}
-            <TableHead>
-              <TableRow>
-                <TableCell>DATE</TableCell>
-                <TableCell>BROILER</TableCell>
-                <TableCell>LAYER</TableCell>
-                <TableCell>PARENTS</TableCell>
-                <TableCell>COUNTRY CHICKEN</TableCell>
-                <TableCell>TOTAL PROFIT (₹)</TableCell>
+            <TableHead >
+              <TableRow >
+                <TableCell sx={{ color: "#555555", position: 'sticky', top: 0, bgcolor: "#F0F0F0" }}>DATE</TableCell>
+                <TableCell sx={{ color: "#555555", position: 'sticky', top: 0, bgcolor: "#F0F0F0" }}>BROILER</TableCell>
+                <TableCell sx={{ color: "#555555", position: 'sticky', top: 0, bgcolor: "#F0F0F0" }}>LAYER</TableCell>
+                <TableCell sx={{ color: "#555555", position: 'sticky', top: 0, bgcolor: "#F0F0F0" }}>PARENTS</TableCell>
+                <TableCell sx={{ color: "#555555", position: 'sticky', top: 0, bgcolor: "#F0F0F0" }}>COUNTRY CHICKEN</TableCell>
+                <TableCell sx={{ color: "#555555", position: 'sticky', top: 0, bgcolor: "#F0F0F0" }}>TOTAL PROFIT (₹)</TableCell>
               </TableRow>
             </TableHead>
 
@@ -50,8 +63,16 @@ const ProfitTable = () => {
             </TableBody>
 
             {/* Table Footer */}
-            <TableFooter>
-              <TableRow style={{ backgroundColor: '#1565c0', color: 'white' }}>
+            <TableFooter sx={{marginLeft:"10px",marginRight:"10px",}}>
+              <TableRow sx={{
+                    position: 'sticky',
+                    bottom: 8,
+                    bgcolor: '#1565c0',
+                    color: 'white',
+                    fontWeight: 'bold',
+                    borderRadius:"10px",
+                    
+                  }}>
                 <TableCell style={{ color: 'white', fontWeight: 'bold' }}>TOTAL</TableCell>
                 <TableCell style={{ color: 'white' }}>{data[0].broiler}</TableCell>
                 <TableCell style={{ color: 'white' }}>{data[0].layer}</TableCell>
@@ -64,7 +85,7 @@ const ProfitTable = () => {
         </TableContainer>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ProfitTable
+export default ProfitTable;
